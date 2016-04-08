@@ -1,0 +1,6 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin provides a link to the
+    <B>Release Label Content Report wiki page</B>
+    in the Build Page
+</div>

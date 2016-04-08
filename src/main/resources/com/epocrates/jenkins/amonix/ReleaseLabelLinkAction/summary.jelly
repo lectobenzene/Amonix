@@ -1,0 +1,10 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:st="jelly:stapler">
+    <t:summary icon="/plugin/amonix/icons/athenawiki.png">
+        <a href="${it.url}">${it.build} / ${it.label}
+            <br/>
+            <B>${it.day} - ${it.hour}:${it.minute}:${it.second}</B>
+        </a>
+    </t:summary>
+</j:jelly>
